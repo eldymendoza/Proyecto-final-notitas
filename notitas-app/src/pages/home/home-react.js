@@ -202,8 +202,9 @@ function Home() {
         .catch((error) => {
           console.error("Error al eliminar la nota:", error);
         });
-      window.location.reload();
-    }
+        window.location.reload();
+      }
+      
   };
 
   return (
